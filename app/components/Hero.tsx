@@ -18,7 +18,7 @@ export default function Hero() {
             <a href="https://github.com/RinaniRita" target="_blank" rel="noreferrer" className={styles.primaryBtn}>
               GitHub Profile
             </a>
-            <a href="/docs/Nguyen%20Nhat%20Minh_AI%20Engineer_CV.pdf" target="_blank" rel="noreferrer" className={styles.secondaryBtn}>
+            <a href="https://drive.google.com/drive/folders/16qall6is6ZkbzDCqLtAr-cf2fIFELgTA" target="_blank" rel="noreferrer" className={styles.secondaryBtn}>
               View Resume
             </a>
           </div>
