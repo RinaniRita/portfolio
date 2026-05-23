@@ -1,0 +1,81 @@
+.heroSection {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  text-align: center;
+}
+
+.greeting {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.role {
+  font-size: 2rem;
+  color: var(--text-secondary);
+  margin-bottom: 30px;
+}
+
+.bio {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.primaryBtn {
+  background: var(--accent-gradient);
+  color: #fff;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+}
+
+.secondaryBtn {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+}
+
+.secondaryBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
